@@ -7,6 +7,6 @@ table, td, th{
   text-align: center;
 }
 
-thead, foot{
+thead, tfoot{
   background-color:#AFEEEE;
 }
