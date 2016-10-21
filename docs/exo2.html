@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Exercice 2</title>
+  </head>
+  
+  <body>
+    <div id="content">
+		<section>
+			<h1>Exercice 2</h1>
+		</section>
+	
+		<section>
+		  <h2>Les tableaux</h2>		  
+		  <table>
+			<caption>Tableau comparatif</caption>		
+			<thead>
+			  <tr> 
+			  <th>Ville</th>
+			  <th><img src="imgs/soleil.png"/>Ensoleillement</th>
+			  <th><img src="imgs/pluie.png"/>Pluie</th>
+			  <th><img src="imgs/neige.png"/>Neige</th>
+			</tr>
+			</thead>
+			
+			<colgroup class="colA" span="1"/>
+			<colgroup class="colB" span="1"/>
+			<colgroup class="colA" span="1"/>
+			<colgroup class="colB" span="1"/>
+			
+			<tbody>
+				<tr>
+					<td>Lille</td>
+					<td>1617 h/an</td>
+					<td>687 mm/an</td>
+					<td>19 j/an</td>
+				</tr>
+				<tr>
+					<td>Nantes</td>
+					<td>1954 h/an</td>
+					<td>788 mm/an</td>
+					<td>5 j/an</td>
+				</tr>
+				<tr>
+					<td>Nice</td>
+					<td>2694 h/an</td>
+					<td>767 mm/an</td>
+					<td>1 j/an</td>
+				</tr>
+				<tr>
+					<td>Paris</td>
+					<td>1797 h/an</td>
+					<td>642 mm/an</td>
+					<td>15 j/an</td>
+				</tr>
+			</tbody>
+			<tfoot>
+			  <tr>
+				<td>Moyenne Nationale</td>
+				<td>1973 h/an</td>
+				<td>770 mm/an</td>
+				<td>14 j/an</td>
+			  </tr>
+			</tfoot>
+
+		  </table>
+		</section>
+		
+		<section>
+		  <h2>Tableau irrégulier</h2>
+		  <table>
+			<tr>
+			  <td colspan="2">1</td>
+			  <td colspan="2">2</td>
+			  <td>3</td>
+			</tr>
+			<tr>
+			  <td>4</td>
+			  <td rowspan="3">5</td>
+			  <td>6</td>
+			  <td>7</td>
+			  <td>8</td>
+			</tr>
+			<tr>
+			  <td rowspan="3">9</td>
+			  <td>10<br></td>
+			  <td>11</td>
+			  <td>12</td>
+			</tr>
+			<tr>
+			  <td>13</td>
+			  <td colspan="2" rowspan="2">14</td>
+			</tr>
+			<tr>
+			  <td>15</td>
+			  <td>16</td>
+			</tr>
+		  </table>
+		</section>
+		
+		<section>
+			<h2>Image Réactive</h2>
+			<img id="mapImg" src="imgs/planetes.jpg" width="640" height="279" usemap="#img-map" alt="" />
+			<map name="img-map" id="mapImg">
+				<area shape="circle" coords="50,140,36" alt="Mercure" href="https://fr.wikipedia.org/wiki/Mercure_(plan%C3%A8te)" target="_blank"/>
+				<area shape="circle" coords="199,140,89" alt="Venus" href="https://fr.wikipedia.org/wiki/V%C3%A9nus_(plan%C3%A8te)" target="_blank"/>
+				<area shape="circle" coords="405,142,95" alt="Terre" href="https://fr.wikipedia.org/wiki/Terre" target="_blank"/>
+				<area shape="circle" coords="571,140,50" alt="Mars" href="https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)" target="_blank"/>
+			</map>
+		</section>
+		
+		<section>
+			<h2>Vidéo</h2>
+			<video controls="controls">
+				<source src="vid/video.mp4" type="video/mp4">
+				<source src="vid/video.webm" type="video/webm">
+				<source src="vid/video.ogv" type="video/ogv">
+			</video>
+		</section>
+		
+		<section>
+			<h2>Audio</h2>
+			<p>Format OGG</p>
+			<audio src="audio/audio.ogg" controls="controls" autoplay="autoplay" loop="loop" muted="muted"></audio>
+			
+		</section>
+		
+    </div>  
+  </body>
+</html>
