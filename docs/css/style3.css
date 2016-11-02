@@ -1,0 +1,45 @@
+body{
+	background-color:#DCE9BE;
+	font-family:Verdana;
+	font-size:14px;
+	color:#2E2633;
+}
+
+h1, h2{
+  color:#99173C;
+}
+
+h1{
+	font-size:160%;
+}
+
+h2{
+	font-size:120%;
+}
+
+img{
+	width:120px
+}
+
+table{
+	border-collapse:collapse;
+	
+}
+
+td, th{
+  border:1px solid black;
+  text-align: center;
+}
+
+thead {
+  background-color:#555152;
+  color:white;
+}
+
+.transcription{
+	font-style:italic;
+}
+
+li{
+	list-style-type:upper-roman;
+}
