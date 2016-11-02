@@ -20,13 +20,22 @@ header h1{
 	color:white;
 }
 
-nav {
-
+nav{
+	margin-top:2px;
 }
 
-nav li{
-
+nav ul {
+	margin-left: 10px;
+	padding-left: 0px;
+	display: inline;
 }
+nav ul li {
+	padding: 2px 15px 5px;
+	list-style: none;
+	display: inline;
+	
+	background-color:lightgray;
+ }
 
 #content{
 	position: float;
@@ -36,6 +45,5 @@ nav li{
 
 footer{
 	padding:1px;
-	text-align:center;
-	background-color:#aaa;
+	background-color:lightgray;
 }
