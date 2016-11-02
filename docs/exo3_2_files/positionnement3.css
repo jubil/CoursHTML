@@ -1,21 +1,24 @@
 body{
-
+	background-color:#ddd;
 }
 
 #container{
-
+	background-color:#fff;
+	width:80%;
+	border:1px solid black;
 }
 
 header{
-	background-color:red;
-}
-
-header h1{
-
+	border-bottom:1px solid black;
 }
 
 nav{
-
+	position: fixed;
+	top:8px;
+	left:81%;
+	width:18%;
+	background-color:#fff;
+	border:1px solid black;
 }
 
 #content{
@@ -23,5 +26,8 @@ nav{
 }
 
 footer{
-
+	padding:1px;
+	text-align:center;
+	border-top:1px solid black;
+	background-color:#ccc
 }
