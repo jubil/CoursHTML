@@ -1,0 +1,41 @@
+body{
+	background-color:#ddd;
+}
+
+#container{
+	margin:auto;
+	width:90%;
+	border:1px solid black;
+	background-color:white;
+}
+
+header{
+	margin:0px;
+	padding:1px;
+	background-color:#35B46F
+}
+
+header h1{
+	margin-left:20px;
+	color:white;
+}
+
+nav {
+
+}
+
+nav li{
+
+}
+
+#content{
+	position: float;
+	padding:1px;
+	padding:20px;
+}
+
+footer{
+	padding:1px;
+	text-align:center;
+	background-color:#aaa;
+}
