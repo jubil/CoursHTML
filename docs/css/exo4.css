@@ -1,3 +1,30 @@
+a:link, a:visited{
+	color:red;
+}
+
+a:hover{
+	color:white;
+	background-color:red;
+}
+
+a:focus{
+	background-color:green;
+}
+
+#content p::first-letter{
+	font-size:32px;
+}
+
+#content p:nth-child(odd){
+	border:1px solid black;
+}
+
+#content p:first-of-type{
+	color:green;
+	font-size:120%;
+	border:0px solid black;
+}
+
 p:hover{
 	background-color:lightgray;
 }
